@@ -15,7 +15,7 @@ function App() {
   const [fetchError, setFetchError] = useState('');
 
   const API_KEY = '1e847a456d2b4f73940103417242808';
-  const base_url = 'http://api.weatherapi.com/v1/forecast.json?key=';
+  const base_url = 'https://api.weatherapi.com/v1/forecast.json?key=';
   const url = base_url + API_KEY + '&q=' + cityName;
   
   // Function to update state
