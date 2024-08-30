@@ -1,0 +1,55 @@
+:root {
+    --bg-color: #202b3b;
+    --primary-text: #f0f1f1;
+    --secondary-text: #9399a2;
+}
+
+.forecast-container {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.forecast-container p {
+    text-transform: uppercase;
+    color: var(--secondary-text);
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+}
+
+.forecast {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.forecast .hourly {
+    margin: 0 1em;
+    flex-grow: 1;
+}
+
+.forecast > .hourly .time {
+    font-size: 1em;
+    text-align: center;
+}
+
+.forecast .hourly img {
+    width: 70px;
+    margin: 1em auto;
+}
+
+.forecast .hourly .temperature {
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--primary-text);
+}

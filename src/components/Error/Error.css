@@ -1,0 +1,22 @@
+:root {
+    --bg-color: #202b3b;
+    --txt-color: #f0f1f1;
+}
+
+.error-container {
+    margin: 0 auto;
+    margin-top: 7em;
+    padding: 1em;
+    border: 1px solid #8B000099;
+    background-color: #8B000022;
+    display: flex;
+    width: 80%;
+    border-radius: 0.5em;
+}
+
+.error-message {
+    color: #8B0000;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0;
+}

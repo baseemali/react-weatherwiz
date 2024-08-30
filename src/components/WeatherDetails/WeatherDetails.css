@@ -1,0 +1,60 @@
+:root {
+    --bg-color: #202b3b;
+    --primary-text: #f0f1f1;
+    --secondary-text: #9399a2;
+}
+
+.wdetails-container {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 25px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.wdetails-container > p {
+    text-transform: uppercase;
+    width: 100%;
+    color: var(--secondary-text);
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+}
+
+.weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.detail-card {
+    flex-basis: 40%;
+    flex-shrink: 0;
+    color: #202b3b;
+    font-size: 1em;
+    margin: 15px 1em;
+    background-color: #FFFFFF22;
+    padding: 1em;
+    height: 10em;
+    border-radius: 1em;
+}
+
+.detail-card > p {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--secondary-text);
+    margin: 0;
+}
+
+.detail-card > p + p {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--primary-text);
+}

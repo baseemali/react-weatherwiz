@@ -1,0 +1,36 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+	<title>New Project</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(583.563,652.21,652.21,-583.563,220.343,256.854)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".198" stop-color="#d9f7ff"/>
+			<stop offset="1" stop-color="#89c0f5"/>
+		</radialGradient>
+		<radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(8.011,11.013,15.452,-12.531,215.658,67.181)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.403,6.052,8.492,-6.887,262.199,81.13)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-3.871,-2.514,-7.676,10.045,279.568,100.356)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { mix-blend-mode: overlay;fill: url(#g2) } 
+		.s2 { opacity: .4;mix-blend-mode: overlay;fill: url(#g3) } 
+		.s3 { opacity: .2;mix-blend-mode: overlay;fill: url(#g4) } 
+	</style>
+	<g id="Layer 1">
+	</g>
+	<g id="&lt;Group&gt;">
+		<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m352.5 160.1c166 0 305.2 114.8 342.5 269.4 30.2-14.6 63.9-23.1 99.7-23.1 126.6 0 229.3 102.7 229.3 229.3 0 126.7-102.7 229.4-229.3 229.4h-442.2c-194.7 0-352.5-157.9-352.5-352.5 0-194.7 157.8-352.5 352.5-352.5z"/>
+		<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m223.7 78.2c8.5-6.9 11.8-17.5 7.4-23.5-4.4-6.1-14.9-5.4-23.5 1.5-8.5 6.9-11.8 17.4-7.4 23.5 4.4 6.1 14.9 5.4 23.5-1.5z"/>
+		<path id="&lt;Path&gt;" fill-rule="evenodd" class="s2" d="m266.6 87.2c4.7-3.8 6.5-9.6 4.1-13-2.4-3.3-8.2-2.9-12.9 0.9-4.7 3.8-6.5 9.6-4.1 12.9 2.4 3.4 8.2 3 12.9-0.8z"/>
+		<path id="&lt;Path&gt;" fill-rule="evenodd" class="s3" d="m277 95.5c5.2-5.2 10.5-7.3 11.9-4.6 1.4 2.7-1.6 9.1-6.8 14.3-5.1 5.3-10.5 7.3-11.9 4.6-1.4-2.7 1.6-9.1 6.8-14.3z"/>
+	</g>
+</svg>

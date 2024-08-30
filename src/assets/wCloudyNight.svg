@@ -1,0 +1,70 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="-312 -303 1024 1024" width="1024" height="1024">
+	<title>5544715</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-408.453,541.2,541.2,408.453,433.243,-84.771)">
+			<stop offset="0" stop-color="#fcfcfc"/>
+			<stop offset=".156" stop-color="#f1edf5"/>
+			<stop offset="1" stop-color="#9fa1a6"/>
+		</radialGradient>
+		<radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-85.412,117.411,-164.738,-133.594,491.387,-14.987)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-115.082,-108.109,21.804,-71.532,150.953,326.207)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(511.51,571.682,571.682,-511.51,-117.865,96.917)">
+			<stop offset="0" stop-color="#bad0d6"/>
+			<stop offset=".198" stop-color="#9bbac2"/>
+			<stop offset="1" stop-color="#5d8bb8"/>
+		</radialGradient>
+		<radialGradient id="g5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(75.538,103.837,145.693,-118.149,-117.159,203.49)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(41.518,57.072,80.077,-64.938,321.686,335.031)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g7" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-36.499,-23.707,-72.377,94.718,485.478,516.318)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: #b0b1b6 } 
+		.s2 { mix-blend-mode: overlay;fill: url(#g2) } 
+		.s3 { opacity: .4;mix-blend-mode: overlay;fill: url(#g3) } 
+		.s4 { fill: url(#g4) } 
+		.s5 { opacity: .5;mix-blend-mode: overlay;fill: url(#g5) } 
+		.s6 { opacity: .3;mix-blend-mode: overlay;fill: url(#g6) } 
+		.s7 { opacity: .2;mix-blend-mode: overlay;fill: url(#g7) } 
+	</style>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m351.6 496.3c-197.6 0-357.2-159.6-357.2-357.1 0-197.5 159.6-357.2 357.2-357.2 197.5 0 357.1 159.7 357.1 357.2 0 197.5-159.6 357.1-357.1 357.1z"/>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m102 202.4c33.6-3.1 57.5-41.1 53.6-85.1-3.9-43.9-34.4-77.1-68-74.1-33.5 3-57.5 41.1-53.5 85.1 3.9 43.9 34.3 77.1 67.9 74.1z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m72.9 234.3c-20.1 10.6-25.2 40.5-11.4 66.8 13.9 26.3 41.3 39.1 61.5 28.5 20-10.5 25.1-40.4 11.3-66.7-13.8-26.3-41.3-39.1-61.4-28.6z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m152.5 202.6c-11.9 6.2-14.8 23.9-6.7 39.4 8.2 15.6 24.4 23.1 36.3 16.9 11.9-6.2 14.9-23.9 6.7-39.4-8.1-15.6-24.4-23.1-36.3-16.9z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m681.4 152.1c-6.1-43.7-38.2-75.3-71.5-70.6-33.4 4.7-55.4 44-49.3 87.6 6.2 43.7 38.3 75.3 71.6 70.6 33.4-4.7 55.4-43.9 49.2-87.6z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m637.3 48.1c19.5-11.5 23.1-41.7 8-67.2-15.1-25.6-43.2-37-62.8-25.4-19.5 11.5-23.1 41.6-8 67.2 15.2 25.6 43.3 37 62.8 25.4z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s1" d="m564 44.1c-8.9-15.1-25.5-21.8-37.1-15-11.5 6.8-13.6 24.6-4.6 39.7 8.9 15.2 25.5 21.9 37.1 15 11.5-6.8 13.6-24.6 4.6-39.7z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s2" d="m406 102.4c-90.9-73.8-126.5-186.1-79.4-251 47.2-64.8 159.2-57.5 250.2 16.2 91 73.8 126.4 186.2 79.3 251-47.2 64.9-159.2 57.6-250.1-16.2z"/>
+					<path id="&lt;Path&gt;" fill-rule="evenodd" class="s3" d="m35.9 218.1c12-39.5 73.3-23.1 136.9 36.6 63.5 59.7 105.2 140.1 93.2 179.6-12 39.5-73.2 23.2-136.8-36.5-63.6-59.7-105.3-140.2-93.3-179.7z"/>
+				</g>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" fill-rule="evenodd" class="s4" d="m-2 12.1c145.5 0 267.5 100.7 300.2 236.1 26.5-12.8 56-20.2 87.4-20.2 111 0 201 90 201 201 0 111-90 201-201 201h-387.6c-170.7 0-309-138.3-309-308.9 0-170.7 138.3-309 309-309z"/>
+				<path id="&lt;Path&gt;" fill-rule="evenodd" class="s5" d="m-41.6 307.3c80.4-65.2 111.9-164.6 70.1-221.9-41.7-57.4-140.7-51-221.2 14.3-80.4 65.2-111.8 164.6-70.1 221.9 41.7 57.4 140.8 51 221.2-14.3z"/>
+				<path id="&lt;Path&gt;" fill-rule="evenodd" class="s6" d="m363.2 392.1c44.2-35.9 61.5-90.5 38.6-122-23-31.5-77.4-28-121.6 7.9-44.2 35.8-61.5 90.5-38.6 122 23 31.5 77.4 28 121.6-7.9z"/>
+				<path id="&lt;Path&gt;" fill-rule="evenodd" class="s7" d="m461.3 470.2c48.6-49.2 98.8-68.4 112.2-42.9 13.4 25.4-15.2 85.9-63.9 135.1-48.6 49.2-98.8 68.4-112.2 43-13.3-25.5 15.3-86 63.9-135.2z"/>
+			</g>
+		</g>
+	</g>
+</svg>
