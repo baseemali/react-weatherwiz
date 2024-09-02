@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState('');
 
-  const API_KEY = '1e847a456d2b4f73940103417242808';
+  const API_KEY = process.env.REACT_APP_API_KEY;
   const base_url = 'https://api.weatherapi.com/v1/forecast.json?key=';
   const url = base_url + API_KEY + '&q=' + cityName;
   
