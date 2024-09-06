@@ -50,12 +50,13 @@ function App() {
 
     const fetchLocation = async () => {
       setLoading(true);
-
+      setGeoError('');
+      const url = 'https://ipapi.co/json/';
       try {
-        const response = await axios.get('https://ipapi.co/json/');
-        setGeoLocation(response.data);
-        console.log(response);
-        setLoading(false);
+        const response = await axios.get(url);
+        console.log(response.data.city);
+        fetchData(response.data.city);
+        setLoading(true);
       }
       catch (err) {
         setGeoError(err.message);
@@ -66,10 +67,8 @@ function App() {
   
     if(cityName) {
       fetchData(cityName);
-    } else if (loading) {
+    } else {
       fetchLocation();
-      if(geoError != '')
-        fetchData(geoLocation.city);
     }
 
   }, [cityName]);
