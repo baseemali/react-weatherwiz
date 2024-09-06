@@ -13,10 +13,12 @@ function App() {
   const [cityWeatherData, setCityWeatherData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState('');
+  const [geoLocation, setGeoLocation] = useState([]);
+  const [geoError, setGeoError] = useState('');
 
   const API_KEY = process.env.REACT_APP_API_KEY;
   const base_url = 'https://api.weatherapi.com/v1/forecast.json?key=';
-  const url = base_url + API_KEY + '&q=' + cityName;
+  //const url = base_url + API_KEY + '&q=' + cityName;
   
   // Function to update state
   const handleCityNameChange = (newCityName) => {
@@ -24,9 +26,11 @@ function App() {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
+    
+    const fetchData = async (searchValue) => {
       setFetchError('');
       setLoading(true);
+      const url = base_url + API_KEY + '&q=' + searchValue;
       try {
         const response = await axios.get(url);
         setCityWeatherData(response.data);
@@ -43,12 +47,34 @@ function App() {
         setLoading(false);
       }
     };
+
+    const fetchLocation = async () => {
+      setLoading(true);
+
+      try {
+        const response = await axios.get('https://ipapi.co/json/');
+        setGeoLocation(response.data);
+        console.log(response);
+        setLoading(false);
+      }
+      catch (err) {
+        setGeoError(err.message);
+        console.log(geoError);
+      }
+    };
+
   
-    if(cityName)
-      fetchData();
+    if(cityName) {
+      fetchData(cityName);
+    } else if (loading) {
+      fetchLocation();
+      if(geoError != '')
+        fetchData(geoLocation.city);
+    }
 
   }, [cityName]);
-  
+
+
 
   if (loading) {
     return (
