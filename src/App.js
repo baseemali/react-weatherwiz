@@ -54,8 +54,8 @@ function App() {
       const url = 'https://ipapi.co/json/';
       try {
         const response = await axios.get(url);
-        console.log(response.data.city);
-        fetchData(response.data.city);
+        const location = response.data.city + ', ' + response.data.region + ', ' + response.data.country_name;
+        fetchData(location);
         setLoading(true);
       }
       catch (err) {

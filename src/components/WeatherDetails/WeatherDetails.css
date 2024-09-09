@@ -29,7 +29,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -39,7 +38,7 @@
     flex-shrink: 0;
     color: #202b3b;
     font-size: 1em;
-    margin: 15px 1em;
+    margin: 15px .75em;
     background-color: #FFFFFF22;
     padding: 1em;
     height: 10em;

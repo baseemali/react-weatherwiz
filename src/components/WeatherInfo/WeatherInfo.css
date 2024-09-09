@@ -45,3 +45,15 @@
 .weather-icon img {
     width: 150px;
 }
+
+@media(max-width: 622px) {
+    .weather-details .city {
+        text-align: center;
+    }
+    .weather-details .chance-rain {
+        text-align: center;
+    }
+    .weather-details .temperature {
+        text-align: center;
+    }
+}

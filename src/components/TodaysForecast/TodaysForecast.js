@@ -34,14 +34,14 @@ function getWeatherImg (wCode) {
 
 function TodaysForecast( {todaysForecastData} ) {
 
-    const DaysToForecast = 5;
+    const DaysToForecast = 8;
     const hourlyForecast = todaysForecastData.forecast.forecastday[0].hour;
     const timeAtLocation = todaysForecastData.location.localtime;
     const hourAtLocation = Number((timeAtLocation.split(' ')[1]).split(':')[0]);
 
     let timeToForecast = [];
     for (let i = 1; i <= DaysToForecast; i++) {
-        timeToForecast[i-1] = ((hourAtLocation + i) % 24);
+        timeToForecast[i-1] = {key: i-1, hour:((hourAtLocation + i) % 24)};
     }
 
     return(
@@ -50,10 +50,10 @@ function TodaysForecast( {todaysForecastData} ) {
             <div className='forecast'>
 
                 {timeToForecast.map(forecast => (
-                    <div className='hourly'>
-                    <p className='time'>{(hourlyForecast[forecast].time).split(' ')[1]}</p>
-                    <img src={getWeatherImg(hourlyForecast[forecast].condition.code)} />
-                    <p className='temperature'>{Math.round(hourlyForecast[forecast].temp_c)}°</p>
+                    <div key={forecast.key} className='hourly'>
+                        <p className='time'>{(hourlyForecast[forecast.hour].time).split(' ')[1]}</p>
+                        <img src={getWeatherImg(hourlyForecast[forecast.hour].condition.code)} />
+                        <p className='temperature'>{Math.round(hourlyForecast[forecast.hour].temp_c)}°</p>
                     </div>
                 ))}
             </div>
