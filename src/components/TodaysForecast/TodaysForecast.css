@@ -28,7 +28,7 @@
     width: 100%;
     display: flex;
     justify-content: start;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     text-align: center;
 }

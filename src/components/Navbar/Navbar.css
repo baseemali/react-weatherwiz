@@ -1,6 +1,7 @@
 :root {
     --bg-color: #202b3b;
     --txt-color: #f0f1f1;
+    --line-color: #f0f1f111;
 }
 
 * {
@@ -16,31 +17,40 @@ body {
 }
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .navbar-title {
-    float: left;
+    display: flex;
+    align-items: center;
+    flex: 4;
 }
 
-.navbar-title h1 {
-    float: right;
-    margin: 0 10px
+.navbar-title h2 {
+    margin: 0 10px;
 }
 
 .navbar-title img {
     border-radius: 0.5em;
     width: 50px;
-    float: left;
 }
 
 .navbar-search {
-    width: 60%;
-    text-align: right;
+    flex: 3;
+    display: flex;
+    justify-content: end;
+    width: auto;
 }
+
+.input-col {
+    flex: 1;
+    display: block;
+    position: relative;
+}
+
 
 .navbar-search input {
     background-color: #00000000;
@@ -50,9 +60,9 @@ body {
     color: var(--txt-color);
     border-radius: 10px;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 0 0px;
-    width: 70%;
+    width: 100%;
 }
 
 .navbar button {
@@ -70,4 +80,50 @@ body {
 .navbar button:hover {
     background-color: #0095ff;
     color: var(--bg-color);
+}
+
+.suggestion-box {
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    padding: 0.75em;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    transition: .3s ease;
+    overflow-x: hidden;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    ul li {
+        font-size: 1.1em;
+        padding: 0.5em 0.6em;
+        border-radius: 0.4em;
+        cursor: pointer;
+    }
+
+    ul li:hover {
+        background-color: var(--line-color);
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-title {
+        margin-bottom: 20px;
+    }
+
+    .suggestion-box {
+        z-index: 10;
+        background-color: #202b3bCC;
+        backdrop-filter: blur(10px);
+    }
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
+import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import WeatherInfo from './components/WeatherInfo/WeatherInfo'
 import TodaysForecast from './components/TodaysForecast/TodaysForecast';
@@ -96,6 +97,10 @@ function App() {
       <WeatherInfo cityWeatherInfo={cityWeatherData} />
       <TodaysForecast todaysForecastData={cityWeatherData} />
       <WeatherDetails fetchWeatherDetails={cityWeatherData.current}/>
+
+      <div className='footer'>
+        <p>WeatherWiz Developed by <a href='https://github.com/baseemali' target='_blank'>Baseem Ali</a></p>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.footer, a, a:hover, a:active {
+    text-align: center;
+    font-size: 1.1em;
+    color: #3e4755;
+    font-weight: 600;
+}
+
+body {
+    max-width: 1024px;
+}
