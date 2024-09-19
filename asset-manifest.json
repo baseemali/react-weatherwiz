@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-weatherwiz/static/css/main.b0ce67b8.css",
-    "main.js": "/react-weatherwiz/static/js/main.c0ea77cc.js",
+    "main.css": "/react-weatherwiz/static/css/main.c0690d98.css",
+    "main.js": "/react-weatherwiz/static/js/main.1ed27c11.js",
     "static/media/Logo.png": "/react-weatherwiz/static/media/Logo.d64efc79ea044ca9e29d.png",
     "static/media/wThunderRaining.svg": "/react-weatherwiz/static/media/wThunderRaining.65803ed43beaa47b6ac7d30afdc492d4.svg",
     "static/media/wThunderstorm.svg": "/react-weatherwiz/static/media/wThunderstorm.8db8e4084be1093160274d460f314147.svg",
@@ -17,11 +17,11 @@
     "static/media/wClearSky.svg": "/react-weatherwiz/static/media/wClearSky.e4578e0103be471ce254d80426d25ad3.svg",
     "static/media/wCloudy.svg": "/react-weatherwiz/static/media/wCloudy.63362e90c27f86686b2cc43ebeb6c2ca.svg",
     "index.html": "/react-weatherwiz/index.html",
-    "main.b0ce67b8.css.map": "/react-weatherwiz/static/css/main.b0ce67b8.css.map",
-    "main.c0ea77cc.js.map": "/react-weatherwiz/static/js/main.c0ea77cc.js.map"
+    "main.c0690d98.css.map": "/react-weatherwiz/static/css/main.c0690d98.css.map",
+    "main.1ed27c11.js.map": "/react-weatherwiz/static/js/main.1ed27c11.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0ce67b8.css",
-    "static/js/main.c0ea77cc.js"
+    "static/css/main.c0690d98.css",
+    "static/js/main.1ed27c11.js"
   ]
 }
